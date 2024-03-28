@@ -1,0 +1,23 @@
+
+public class BalancoTrimenstral {
+
+	public static void main(String[] args) {
+		// declaração das variaveis
+		
+		int gastosJaneiro= 15000;
+		int gastosFevereiro =23000;
+		int	gastosMarco =17000;
+		
+		int GastosTrimestre= gastosJaneiro + gastosFevereiro+ gastosMarco;
+		
+		System.out.println("Os gastos foram " + GastosTrimestre);
+		
+		
+		int media = (gastosJaneiro+ gastosFevereiro + gastosMarco)/3;
+				System.out.println(" A média é " + media);
+				
+				
+			
+	}
+
+}
