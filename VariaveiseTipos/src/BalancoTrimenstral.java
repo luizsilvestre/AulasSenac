@@ -8,17 +8,20 @@ public class BalancoTrimenstral {
 		int gastosFevereiro =23000;
 		int	gastosMarco =17000;
 		
+		//Soma das variaveis 
+		
 		int GastosTrimestre= gastosJaneiro + gastosFevereiro+ gastosMarco;
 		
+		
+		//impressao na tela dos resultados
 		System.out.println("Os gastos foram " + GastosTrimestre);
 		
-		
+		//Media dos valores
 		int media = (gastosJaneiro+ gastosFevereiro + gastosMarco)/3;
-				System.out.println(" A média é " + media);
+				System.out.println(" Valor da média mensal é " + media);
 				
 				
-				int media2 = GastosTrimestre/3;
-				System.out.println(" A média2 é " + media);
+			
 	}
 
 }
