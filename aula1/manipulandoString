@@ -1,0 +1,25 @@
+package br.senac.aula01;
+
+public class ManipulandoVariaveis {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		boolean opcao = false;
+		int numero = 1;
+		String texto = "1";
+		//char [] texto1 ={'1'};
+		
+		boolean resultado = opcao && !opcao;
+		numero = numero + 2;
+		resultado = (numero >= 2) || resultado;
+		numero = 1;
+		resultado = Integer.toString(numero).equals(texto) && resultado;
+		
+		System.out.println(resultado);
+		
+	
+		
+
+	}
+
+}
